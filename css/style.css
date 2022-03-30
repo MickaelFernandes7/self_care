@@ -1,0 +1,244 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Logo */
+    
+    .estrela {
+        font-size: 21px;
+    }
+    /* menu do nav */
+    
+    ul {
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .nav-icon,
+    .footer-icon {
+        color: #5CA720;
+    }
+    
+    .nav-icon:hover {
+        color: #6fc22c;
+    }
+    
+    .footer-icon:hover {
+        color: #6fc22c;
+    }
+    /* Home */
+    
+    .produtosTitle {
+        font: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .produtosTotal {
+        font-weight: bold;
+    }
+    /* cards */
+    
+    .card {
+        cursor: pointer;
+    }
+    
+    .card-img {
+        height: 190px;
+    }
+    
+    .price {
+        color: #5CA720;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /* footer */
+    
+    .news {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .newsletterForm {
+        margin-top: 5%;
+        margin-left: 50%
+    }
+    
+    .inputNewsletter {
+        position: absolute;
+        z-index: 2;
+        outline: none;
+        height: 39px;
+        border-radius: 5px;
+        padding-left: 8px;
+    }
+    
+    .btn-newsletter {
+        background-color: #5CA720;
+        color: #fff;
+        border: none;
+        height: 39px;
+        width: 140px;
+        position: absolute;
+        z-index: 2;
+        margin-left: 31.5%;
+        border-radius: 5px;
+    }
+    
+    .btn-newsletter:hover {
+        background-color: #6fc22c;
+    }
+    
+    .footer-text {
+        width: 100%;
+    }
+    
+    .footer-icon {
+        font-size: 23px;
+    }
+    
+    .footer-img {
+        width: 50px;
+    }
+    
+    .payments {
+        margin-left: 55%;
+        width: 240px;
+    }
+    
+    @media (max-width: 575.98px) {
+        /* card */
+        .card-content {
+            margin-left: 15%;
+        }
+        /* Footer */
+        .news {
+            text-align: left;
+        }
+        .newsletterForm {
+            margin-top: 5%;
+            margin-left: 10%;
+            margin-bottom: 20%;
+        }
+        .inputNewsletter {
+            position: absolute;
+            z-index: 2;
+            outline: none;
+            height: 39px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .btn-newsletter {
+            position: absolute;
+            z-index: 2;
+            margin-left: 78%;
+        }
+        .footer-icon {
+            margin-top: -10px;
+            margin-left: 5%;
+        }
+        .payments-content {
+            margin-right: 1px;
+        }
+        .payments {
+            margin-left: 5%;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        /* card */
+        .card-content {
+            margin-left: 16%;
+        }
+        /* Footer */
+        .news {
+            text-align: left;
+        }
+        .newsletterForm {
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-bottom: 20%;
+        }
+        .inputNewsletter {
+            position: absolute;
+            z-index: 2;
+            outline: none;
+            height: 39px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .btn-newsletter {
+            position: absolute;
+            z-index: 2;
+            margin-left: 66%;
+        }
+        .footer-icon {
+            margin-top: -10px;
+            margin-left: 5%;
+        }
+        .payments-content {
+            margin-left: -2%;
+        }
+        .payments {
+            margin-left: 5%;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        /* footer */
+        .newsletterForm {
+            margin-top: 5%;
+            margin-left: 12%;
+            margin-bottom: 20%;
+        }
+        .inputNewsletter {
+            position: absolute;
+            z-index: 2;
+            outline: none;
+            height: 39px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .footer-icon {
+            margin-top: -15px;
+            margin-left: 5%;
+        }
+        .btn-newsletter {
+            position: absolute;
+            z-index: 2;
+            margin-left: 46%;
+        }
+        .payments {
+            margin-left: 15%;
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        /* footer */
+        .newsletterForm {
+            margin-top: 5%;
+            margin-left: 12%;
+            margin-bottom: 20%;
+        }
+        .inputNewsletter {
+            position: absolute;
+            z-index: 2;
+            outline: none;
+            height: 39px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .btn-newsletter {
+            position: absolute;
+            z-index: 2;
+            margin-left: 36%;
+        }
+        .payments {
+            margin-left: 25%;
+        }
+    }
